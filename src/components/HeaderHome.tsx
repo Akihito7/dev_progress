@@ -7,13 +7,13 @@ export function HeaderHome() {
         <VStack
             w="full"
             bg="gray.500"
-            pt={12}
+            pt={16}
             pb={4}
             px={4}
         >
 
             <HStack
-                mb={6}
+                mb={8}
             >
                 <Image
                     w={14}

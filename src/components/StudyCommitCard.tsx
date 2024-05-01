@@ -1,4 +1,4 @@
-import { Text, VStack } from "native-base";
+import { HStack, Text, VStack } from "native-base";
 
 
 export function StudyCommitCard() {
@@ -7,14 +7,38 @@ export function StudyCommitCard() {
 
             w="full"
             bg="gray.700"
+            h={40}
             borderRadius={10}
             px={4}
             py={4}
-            justifyContent="space-evenly"
+
         >
 
+
+            <HStack flex={1}>
+                <Text
+                    color="gray.200"
+                    fontSize="md"
+
+                    flex={1}
+                >
+                    Empenho
+                </Text>
+
+                <Text
+                    color="gray.200"
+                    fontSize="md"
+
+                >
+                    Razóavelmente bom
+                </Text>
+
+            </HStack>
+
+
+
             <Text
-                color="gray.00"
+                color="gray.200"
                 fontSize="xl"
                 fontWeight="bold"
             >
