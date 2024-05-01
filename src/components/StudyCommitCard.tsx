@@ -6,7 +6,7 @@ export function StudyCommitCard() {
         <VStack
 
             w="full"
-            bg="gray.700"
+            bg="green.700"
             h={40}
             borderRadius={10}
             px={4}

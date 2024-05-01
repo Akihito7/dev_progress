@@ -1,4 +1,4 @@
-import { Box, Text, VStack } from "native-base";
+import { Box, VStack } from "native-base";
 import { HeaderHome } from "../components/HeaderHome";
 import { Timer } from "../components/Timer";
 

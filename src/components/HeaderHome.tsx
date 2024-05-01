@@ -1,4 +1,4 @@
-import { HStack, Heading, Image, ScrollView, Text, VStack } from "native-base";
+import { HStack, Heading, Image, Text, VStack } from "native-base";
 import { StudyCommitCard } from "./StudyCommitCard";
 
 export function HeaderHome() {
@@ -8,7 +8,7 @@ export function HeaderHome() {
             w="full"
             bg="gray.500"
             pt={16}
-            pb={4}
+            pb={6}
             px={4}
         >
 
@@ -38,15 +38,9 @@ export function HeaderHome() {
                         Guilherme Akihito
                     </Heading>
                 </VStack>
-
-
-
             </HStack>
 
             <StudyCommitCard />
-
-
-
         </VStack>
     )
 }
