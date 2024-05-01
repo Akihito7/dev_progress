@@ -1,4 +1,4 @@
-import { Box, VStack } from "native-base";
+import { Box, Text, VStack } from "native-base";
 import { HeaderHome } from "../components/HeaderHome";
 import { Timer } from "../components/Timer";
 
@@ -13,9 +13,7 @@ export function Home() {
                 flex={1}
                 py={16}
             >
-
                 <Timer />
-
             </VStack>
         </Box>
     )
