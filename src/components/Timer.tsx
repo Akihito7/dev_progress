@@ -26,7 +26,7 @@ export function Timer() {
                 }}
             >
                 <Text
-                    color="black"
+                    color="white"
                     fontWeight="bold"
                     fontSize="md"
                 >
